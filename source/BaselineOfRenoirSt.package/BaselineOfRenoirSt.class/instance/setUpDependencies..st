@@ -2,11 +2,10 @@ private
 setUpDependencies: spec
 
 	spec
-		baseline: 'Buoy' with: [ spec repository: 'github://ba-st/Buoy:v3.0.0/source' ];
+		baseline: 'Buoy' with: [ spec repository: 'github://brunobuzzi/Buoy:v3.1.0/source' ];
 		import: 'Buoy'.
 	spec
 		baseline: 'Seaside3'
 			with: [ spec
-				repository: 'github://SeasideSt/Seaside:v3.2.4/repository';
-				loads: 'Javascript' ];
+				repository: 'github://GsDevKit/Seaside31:gs_master/repository'];
 		import: 'Seaside3'

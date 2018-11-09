@@ -1,4 +1,4 @@
 private
 customProjectAttributes
 
-	^ Array with: (Smalltalk globals at: #UnitValue ifPresent: [ :class | #UnitsIsLoaded ] ifAbsent: [ #UnitsIsAbsent ])
+	^(Smalltalk globals at: #UnitValue) ifNil: [Array with: #UnitsIsAbsent ] ifNotNil: [:value | Array with: #UnitsIsLoaded]

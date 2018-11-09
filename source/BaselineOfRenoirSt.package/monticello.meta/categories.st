@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfRenoirSt!
+SystemOrganization addCategory: #'BaselineOfRenoirSt'!

@@ -7,5 +7,5 @@ setUpDependencies: spec
 	spec
 		baseline: 'Seaside3'
 			with: [ spec
-				repository: 'github://GsDevKit/Seaside31:gs_master/repository'];
+				repository: 'github://SeasideSt/Seaside:master/repository'];
 		import: 'Seaside3'

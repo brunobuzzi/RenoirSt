@@ -2,7 +2,7 @@ private
 setUpDependencies: spec
 
 	spec
-		baseline: 'Buoy' with: [ spec repository: 'github://brunobuzzi/Buoy:v3.1.0/source' ];
+		baseline: 'Buoy' with: [ spec repository: 'github://brunobuzzi/Buoy:v3.1.1/source' ];
 		import: 'Buoy'.
 	spec
 		baseline: 'Seaside3'
